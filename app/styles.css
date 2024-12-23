@@ -1,0 +1,26 @@
+/* DatePickerStyles.css */
+
+.custom-datepicker-container {
+    background-color: lightblue; /* 배경색을 변경합니다. */
+    padding: 10px; /* 원하는 패딩을 추가할 수 있습니다. */
+    border-radius: 5px; /* 필요에 따라 border-radius를 설정합니다. */
+    z-index: 999;
+  }
+  
+  .react-datepicker {
+    z-index: 999;
+  }
+
+.react-datepicker__input-container > input{
+    padding: 10px; /* 원하는 패딩을 추가할 수 있습니다. */
+    border-radius: 12px;
+    background-color: #3d3d41;
+    border: 1px solid #6b6b6e;
+    color: #FFFDF0;
+    width: 80%;
+    padding: 14px 16px;
+}
+  
+.react-datepicker__input-container > input:focus{
+    outline: none;
+}

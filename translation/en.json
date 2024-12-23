@@ -1,0 +1,47 @@
+{
+  "common": {},
+  "hotel": {
+    "도착한 편지": "Progress bar",
+    "편지 보내기": "Write a letter",
+    "내 호텔 만들기": "Create My Hotel",
+    "님의 진저호텔": "'s Ginger Hotel",
+    "오늘의 편지함 보기": "My Letter Box",
+    "내 호텔 공유하기": "Share"
+  },
+  "bottom_nav": {
+    "빌리지": "Village",
+    "최근 호텔": "Recent Hotel"
+  },
+  "mypage": {
+    "마이페이지": "My Page",
+    "내 열쇠": "Key",
+    "개": "",
+    "초대코드": "Invitation Code",
+    "내 엿보기": "Peek",
+    "호텔수정": "Modification",
+    "내 카드": "My Card",
+    "이용약관": "Terms of Use",
+    "개인정보 처리방침": "Privacy Policy",
+    "고객센터": "Contact us",
+    "진저호텔": "Ginger Hotel",
+    "사업자등록번호": "Business Code",
+    "주소": "Address",
+    "주소값": "Unit 508-3, 16, Namdaemun-ro 7-gil, Jung-gu, Seoul, Republic of Korea",
+    "대표": "CEO Kang Minji",
+    "이메일": "E-mail"
+  },
+  "letter": {
+    "편지 보내기": "Write a letter",
+    "친구의 호텔에 편지를 보내주세요!": "Write a Christmas letter to your friend!",
+    "전하고 싶은 말을 적어주세요!": "Write here",
+    "나의 닉네임을 입력하세요! (15자 이하)": "Write your nickname",
+    "보내기": "Send"
+  },
+  "reply": {
+    "답장 보내기": "Reply",
+    "따뜻한 편지를 보내 준 친구에게 마음을 전해요": "Let’s write a thank you note",
+    "전하고 싶은 말을 적어주세요!": "Write here",
+    "보내기": "Send",
+    "받는 이": "From"
+  }
+}

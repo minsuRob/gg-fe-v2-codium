@@ -1,0 +1,72 @@
+{
+  "name": "gingerhotel",
+  "displayName": "gingerhotel",
+  "expo": {
+    "name": "진저호텔 2023",
+    "slug": "ginger-hotel-client-v2",
+    "version": "2.2.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "com.teamginger.gingerhoteltest2",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "usesAppleSignIn": true,
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": ["com.googleusercontent.apps.251638133705-sp0utm65q7m50m68g788ftj9rpaa08fr"]
+          }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.teamginger1.gingerhotelclientv2"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-apple-authentication",
+      [
+        "@react-native-seoul/kakao-login",
+        {
+          "kakaoAppKey": "9ac294d2ce5192ddcfa96b9d289a8657",
+          "overrideKakaoSDKVersion": "2.9.0"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7d6387ca-94a7-4358-962e-66d464ab5be6"
+      },
+      "plugins" : [{
+        "username" : "gingertest1"
+      }]
+    },
+    "runtimeVersion": "1.0.1",
+    "updates": {
+      "url": "https://u.expo.dev/7d6387ca-94a7-4358-962e-66d464ab5be6"
+    }
+  }
+}
